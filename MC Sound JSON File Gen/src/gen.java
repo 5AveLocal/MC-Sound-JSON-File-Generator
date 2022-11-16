@@ -27,7 +27,7 @@ public class gen {
         } while (!folder.exists());
         readfile.listFilesForFolder(folder, soundfoldername);
         File outFile = new File(reqpath);
-        if (outFile.delete() && outFile.createNewFile()) {
+        if ((outFile.exists() && outFile.delete()) || outFile.createNewFile()) {
             FileWriter myWriter = new FileWriter(reqpath);
             myWriter.write("{\n  ");
             for (int i = 0; i < strlist.length; i++) {
