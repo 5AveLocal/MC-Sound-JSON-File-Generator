@@ -1,4 +1,4 @@
-# MC-Sound-JSON-Generator
+# MC Sound JSON Generator
 For generating sounds.json for Minecraft resource packs, without having to manually creating one.
 
 Please use a .bat file to execute it.
