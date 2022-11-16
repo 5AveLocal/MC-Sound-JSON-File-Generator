@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MC Sound JSON File Generator">
+    <output-path>$PROJECT_DIR$/out/artifacts/MC_Sound_JSON_File_Generator</output-path>
+    <root id="archive" name="MC Sound JSON File Generator.jar">
+      <element id="module-output" name="MC Sound JSON File Gen" />
+    </root>
+  </artifact>
+</component>
